@@ -8,16 +8,17 @@ import Phat from "./components/phat";
 import Wood from "./components/wood";
 function App() {
   return (
-    <Canvas style={{ backgroundColor: "#cccccc", height: "100vh" }}>
-      <OrbitControls></OrbitControls>
-      <directionalLight
-        position={[3.3, 1.0, 4.4]}
-        castShadow
-        intensity={Math.PI * 2}
-      />
-      <axesHelper scale={2} />
-      <Phat />
-    </Canvas>
+    <h1>demo mà cũng sai</h1>
+    // <Canvas style={{ backgroundColor: "#cccccc", height: "100vh" }}>
+    //   <OrbitControls></OrbitControls>
+    //   <directionalLight
+    //     position={[3.3, 1.0, 4.4]}
+    //     castShadow
+    //     intensity={Math.PI * 2}
+    //   />
+    //   <axesHelper scale={2} />
+    //   <Phat />
+    // </Canvas>
   );
 }
 
